@@ -9,7 +9,7 @@ const credentials = {
     cert: fs.readFileSync('/etc/letsencrypt/live/azcrew.ddns.net/fullchain.pem', 'utf8')
 };
 
-const server = https.createServer(credentials, app).listen(443, () => {
+const server = https.createServer(credentials, app).listen(8000, () => {
     console.log('HTTPS Messenger Running');
 });
 
