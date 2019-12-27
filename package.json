@@ -14,7 +14,7 @@
     },
     "dependencies": {
         "lodash": ">=4.17.13",
-        "handlebars": ">=4.1.2",
+        "handlebars": ">=4.3.0",
         "body-parser": "^1.18.3",
         "connect-mongo": "^2.0.1",
         "connect-multiparty": "^2.1.1",
